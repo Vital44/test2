@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Чёрная соль из Костромы</title>
+</head>
+<body>
+	<header class="main-header">
+		<div class="container">
+			<a class="logo" href="#">
+				<img src="unknown" alt="">Чёрная соль
+			</a>
+			<a id="phone" href="tel:8-906-522-05-03"></a>
+			<button for="phone" class="btn" type="submit">Заказать звонок</button>
+			<nav class="main-navigation">
+				<ul>
+					<li><a href="#">Продукция</a></li>
+					<li><a href="#">О чёрной соли</a></li>
+					<li><a href="#">Как мы работаем</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<form action="formdata.php" method="post" name="form1">
+				<p>
+				<input type="text" name="name" placeholder="Ваше имя" required autofocus>
+				</p>
+				<p>
+					<input type="tel" name="tel" placeholder="Введите ваш номер телефона*" required>
+				</p>
+				<input type="submit" value="Заказать звонок">
+			</form>
+		</div>
+	</header>
+	<div class="sale">
+		<h1>Оптовые продажи чёрной соли</h1>
+		<p class="sale1">Скидки до 20%</p>
+		<a href="tel:8-906-522-05-03">8-906-522-05-03</a><br>
+		<a href="#"><button class="btn" type="submit" name="Заказать">Заказать</button></a>
+	</div>
+	<div class="catalog">
+		<h3>Наша продукция</h3>
+		<img src="unknown" alt="чёрточка с точкой">
+		<p class="sale1"><strong>Получите скидку 20%</strong> от общей стоймости заказа</p>
+		<div class="catalog-item">
+			<a href="#">
+				<img src="unknown" alt="Товар">
+			</a>
+			<h3>Чёрная соль «Четверговая»</h3>
+			<button type="button" class="amount-minus">−</button>
+			<input type="text" name="amount" value="15">
+			<button type="button" class="amount-plus">+</button>
+		</div>
+		<div class="catalog-item">
+			<a href="#">
+				<img src="unknown" alt="Товар">
+			</a>
+			<h3>Чёрная соль «Четверговая»</h3>
+			<button type="button" class="amount-minus">−</button>
+			<input type="text" name="amount" value="0">
+			<button type="button" class="amount-plus">+</button>
+		</div>
+		<div class="catalog-item">
+			<a href="#">
+				<img src="unknown" alt="Товар">
+			</a>
+			<h3>Чёрная соль «Четверговая»</h3>
+			<button type="button" class="amount-minus">−</button>
+			<input type="text" name="amount" value="0">
+			<button type="button" class="amount-plus">+</button>
+		</div>
+		<div class="catalog-item">
+			<a href="#">
+				<img src="unknown" alt="Товар">
+			</a>
+			<h3>Чёрная соль «Салатная»</h3>
+			<button type="button" class="amount-minus">−</button>
+			<input type="text" name="amount" value="0">
+			<button type="button" class="amount-plus">+</button>
+		</div>
+		<div class="catalog-item">
+			<a href="#">
+				<img src="unknown" alt="Товар">
+			</a>
+			<h3>Чёрная соль «Никитинская»</h3>
+			<button type="button" class="amount-minus">−</button>
+			<input type="text" name="amount" value="0">
+			<button type="button" class="amount-plus">+</button>
+		</div>
+	</div>
+	<form action="formdata.php" method="post" name="form2">
+	<p>Заполните форму для оформлениязаказа:</p><br>
+	<p>
+	<input type="text" name="name" placeholder="Ваше имя" required>
+	</p>
+	<p>
+		<input type="tel" name="tel" placeholder="Телефон*" required>
+	</p>
+	<p>
+		<input type="email" name="email" placeholder="E-mail*" required>
+	</p>
+	<p>
+		<input type="text" name="adres" placeholder="Адрес доставки*" required>
+	</p>
+	<p>Выберете транспортную компанию:</p>
+	<select name="company" size="6" multiple>
+		<option selected>Компания 1</option>
+		<option>Компания 2</option>
+		<option>Компания 3</option>
+		<option>Компания 4</option>
+		<option>Компания 5</option>
+		<option>Самовывоз</option>
+	</select>
+	</form>
+</body>
+</html>
