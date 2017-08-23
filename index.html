@@ -7,6 +7,7 @@
 <body>
 	<header class="main-header">
 		<div class="container">
+		<p>ООО "Соло Ко"</p>
 			<a class="logo" href="#">
 				<img src="unknown" alt="">Чёрная соль
 			</a>
@@ -31,76 +32,160 @@
 			</form>
 		</div>
 	</header>
-	<div class="sale">
+	<div class="banner-top">
 		<h1>Оптовые продажи чёрной соли</h1>
-		<p class="sale1">Скидки до 20%</p>
+		<figure>
+			<figcapture>Скидки до 20%</figcapture>
+		</figure>
 		<a href="tel:8-906-522-05-03">8-906-522-05-03</a><br>
 		<a href="#"><button class="btn" type="submit" name="Заказать">Заказать</button></a>
 	</div>
-	<div class="catalog">
+	<div class="title">
 		<h3>Наша продукция</h3>
-		<img src="unknown" alt="чёрточка с точкой">
-		<p class="sale1"><strong>Получите скидку 20%</strong> от общей стоймости заказа</p>
-		<div class="catalog-item">
-			<a href="#">
-				<img src="unknown" alt="Товар">
-			</a>
-			<h3>Чёрная соль «Четверговая»</h3>
-			<button type="button" class="amount-minus">−</button>
-			<input type="text" name="amount" value="15">
-			<button type="button" class="amount-plus">+</button>
-		</div>
-		<div class="catalog-item">
-			<a href="#">
-				<img src="unknown" alt="Товар">
-			</a>
-			<h3>Чёрная соль «Четверговая»</h3>
-			<button type="button" class="amount-minus">−</button>
-			<input type="text" name="amount" value="0">
-			<button type="button" class="amount-plus">+</button>
-		</div>
-		<div class="catalog-item">
-			<a href="#">
-				<img src="unknown" alt="Товар">
-			</a>
-			<h3>Чёрная соль «Четверговая»</h3>
-			<button type="button" class="amount-minus">−</button>
-			<input type="text" name="amount" value="0">
-			<button type="button" class="amount-plus">+</button>
-		</div>
-		<div class="catalog-item">
-			<a href="#">
-				<img src="unknown" alt="Товар">
-			</a>
-			<h3>Чёрная соль «Салатная»</h3>
-			<button type="button" class="amount-minus">−</button>
-			<input type="text" name="amount" value="0">
-			<button type="button" class="amount-plus">+</button>
-		</div>
-		<div class="catalog-item">
-			<a href="#">
-				<img src="unknown" alt="Товар">
-			</a>
-			<h3>Чёрная соль «Никитинская»</h3>
-			<button type="button" class="amount-minus">−</button>
-			<input type="text" name="amount" value="0">
-			<button type="button" class="amount-plus">+</button>
-		</div>
+		<!--разделитель с чёрточкой-->
+		<div class="row"></div>
+		<p class="desc desc-green desc-gray"><strong>Получите скидку 20%</strong> от общей стоймости заказа</p>
 	</div>
-	<form action="formdata.php" method="post" name="form2">
+		<div class="catalog-item">
+		<figure>
+			<img src="unknown" alt="Товар">
+		</figure>
+		<h2>Чёрная соль «Четверговая»</h2>
+		<div class="descr">
+			<span class="price"><span>18.70₽/упаковка</span></span>
+			<span>98уп.в одной коробке</span>
+			<div class="order">
+				<p>Введите количество коробок в партии:</p>
+				<div class="control">
+					<button class="minus">-</button>
+					<input type="text" placeholder="15">
+					<button class="plus">+</button>
+				</div>
+			</div>
+			<div class="weight">
+				<span>
+				Вес: 58,8 кг
+				</span>
+			<div class="price">
+				<span>
+				Цена: 27 489 ₽
+				</span>	
+			</div>	
+			</div>
+		</div>
+		<figure>
+			<img src="unknown" alt="Товар">
+		</figure>
+		<h2>Чёрная соль «Четверговая»</h2>
+		<div class="descr">
+			<span class="price"><span>36,75₽/упаковка</span></span>
+			<span>82уп.в одной коробке</span>
+			<div class="order">
+				<p>Введите количество коробок в партии:</p>
+				<div class="control">
+					<button class="minus">-</button>
+					<input type="text" placeholder="0">
+					<button class="plus">+</button>
+				</div>
+			</div>
+			<div class="weight">
+				<span>
+				Вес: 0 кг
+				</span>
+			<div class="price">
+				<span>
+				Цена: 0 ₽
+				</span>	
+			</div>	
+			</div>
+		</div>
+		<figure>
+			<img src="unknown" alt="Товар">
+		</figure>
+		<h2>Чёрная соль «Четверговая»</h2>
+		<p>(солонка)</p>
+		<div class="descr">
+			<span class="price"><span>59,00₽/упаковка</span></span>
+			<span>28уп.в одной коробке</span>
+			<div class="order">
+				<p>Введите количество коробок в партии:</p>
+				<div class="control">
+					<button class="minus">-</button>
+					<input type="text" placeholder="0">
+					<button class="plus">+</button>
+				</div>
+			</div>
+			<div class="weight">
+				<span>
+				Вес: 0 кг
+				</span>
+			<div class="price">
+				<span>
+				Цена: 0 ₽
+				</span>	
+			</div>	
+			</div>
+		</div>
+		<figure>
+			<img src="unknown" alt="Товар">
+		</figure>
+		<h2>Чёрная соль «Салатная»</h2>
+		<div class="descr">
+			<span class="price"><span>36.75₽/упаковка</span></span>
+			<span>82уп.в одной коробке</span>
+			<div class="order">
+				<p>Введите количество коробок в партии:</p>
+				<div class="control">
+					<button class="minus">-</button>
+					<input type="text" placeholder="0">
+					<button class="plus">+</button>
+				</div>
+			</div>
+			<div class="weight">
+				<span>
+				Вес: 0 кг
+				</span>
+			<div class="price">
+				<span>
+				Цена: 0 ₽
+				</span>	
+			</div>	
+			</div>
+		</div>
+		<figure>
+			<img src="unknown" alt="Товар">
+		</figure>
+		<h2>Чёрная соль «Никитинская»</h2>
+		<div class="descr">
+			<span class="price"><span>26.25₽/упаковка</span></span>
+			<span>82уп.в одной коробке</span>
+			<div class="order">
+				<p>Введите количество коробок в партии:</p>
+				<div class="control">
+					<button class="minus">-</button>
+					<input type="text" placeholder="0">
+					<button class="plus">+</button>
+				</div>
+			</div>
+			<div class="weight">
+				<span>
+				Вес: 0 кг
+				</span>
+			<div class="price">
+				<span>
+				Цена: 0 ₽
+				</span>	
+			</div>	
+			</div>
+		</div>
+		<!--форма заказа-->
+	<form action="formdata.php" method="post">
+	<div class="order">
 	<p>Заполните форму для оформлениязаказа:</p><br>
-	<p>
-	<input type="text" name="name" placeholder="Ваше имя" required>
-	</p>
-	<p>
-		<input type="tel" name="tel" placeholder="Телефон*" required>
-	</p>
-	<p>
-		<input type="email" name="email" placeholder="E-mail*" required>
-	</p>
-	<p>
-		<input type="text" name="adres" placeholder="Адрес доставки*" required>
-	</p>
+	<input type="text" name="name" placeholder="Ваше имя" required><br>
+		<input type="tel" name="tel" placeholder="Телефон*" required><br>
+		<input type="email" name="email" placeholder="E-mail*" required><br>
+		<input type="text" name="adress" placeholder="Адрес доставки*" required>
 	<p>Выберете транспортную компанию:</p>
 	<select name="company" size="6" multiple>
 		<option selected>Компания 1</option>
@@ -110,6 +195,26 @@
 		<option>Компания 5</option>
 		<option>Самовывоз</option>
 	</select>
+	</div>
+	<div class="total-order">
+		<div class="summ">
+			<span></span>Сумма:27 489 ₽<span></span>
+			<p>Сумма указана без учёта скидки</p>
+		</div>
+		<div class="discount">
+			<span></span>Скидка:20%<span></span>
+			<p>Скидка от общей стоимости товара</p>
+		</div>
+		<div class="row1">
+		<span><span>Вес нетто: 0 кг</span></span><br>
+		<span><span>Вес брутто: 0 кг</span></span><br>
+		<span><span>Объём: 0 куб/м</span></span>
+		</div>
+		<div class="total-end">
+			<span></span><strong>Итого:</strong>27 989 ₽<span></span><br>
+			<button class="btn">Оформить заказ</button>
+		</div>
+	</div>
 	</form>
 </body>
 </html>
